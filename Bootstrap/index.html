@@ -149,7 +149,77 @@
             margin: 50px 50px;
             
         }
-       
+/* payal */
+       .p_box>h1,
+        .p_box2>h1 {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            padding-top: 50px;
+        }
+
+        .p_grid {
+            width: 80%;
+            height: 60vh;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            margin-left: 30px;
+            column-gap: 4px;
+            margin-top: 30px;
+        }
+
+        .p_grid>div:hover {
+            transform: scale(1.02);
+            cursor: pointer;
+        }
+
+        .p_box3 {
+            width: 100%;
+            height: 40vh;
+        }
+
+        .p_box3>div {
+            margin-top: 200px;
+            width: 65%;
+            height: 22vh;
+            background-color: rgb(240, 241, 242);
+            margin-left: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .p_btn {
+            background-color: rgb(233, 6, 6);
+            color: white;
+            border-radius: 20px;
+            border: none;
+            font-size: 12px;
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 10px 32px 10px 32px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            margin-left: 30px;
+        }
+
+        .p_box4 {
+            width: 80%;
+            height: 70vh;
+            margin: auto;
+        }
+
+        .p_cards {
+            width: 600px;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 2%;
+        }
+
+        .p_cards>div {
+            width: 300px;
+            height: auto;
+        }
+  
             
         
         
@@ -315,5 +385,101 @@
                 </div>
               </div>
         </div>
+<!-- payal -->
+        <div class="p_box" style="padding-bottom: 20px;">
+          <h1>LISTEN TO PERSON OF THE WEEK</h1>
+      </div>
+      <div style=" width: 40%; margin: auto; padding-top: 15px;">
+          <iframe
+              src="https://omny.fm/shows/person-of-the-week/playlists/podcast/embed?list=0&amp;style=artwork&amp;image=1&amp;share=1&amp;download=1&amp;description=1&amp;follow=1&amp;playlistimages=0&amp;playlistshare=1&amp;foreground=000000&amp;background=e6e6e6&amp;highlight=da291c"
+              allow="autoplay; clipboard-write" width="100%" height="180" frameborder="0"
+              title="Person of The Week"></iframe>
+      </div>
+      <div class="p_box2">
+          <h1>EXPLORE MORE</h1>
+      </div>
+      <div class="p_grid">
+          <div class="col">
+              <img width="290px" src="https://api.time.com/wp-content/uploads/2020/11/T100card.png?w=564&h=1028&crop=1"
+                  alt="">
+          </div>
+          <div class="col">
+              <img width="290px"
+                  src="https://api.time.com/wp-content/uploads/2023/10/2-1330-x-2400.png?w=564&h=1028&crop=1" alt="">
+          </div>
+          <div class="col">
+              <img width="290px"
+                  src="https://api.time.com/wp-content/uploads/2020/04/HP-Brand-COVERS-NEW.jpg?quality=85&w=564&h=1028&crop=1"
+                  alt="">
+          </div>
+          <div class="col">
+              <img width="290px"
+                  src="https://api.time.com/wp-content/uploads/2023/01/CO2.jpg?quality=85&w=564&h=1028&crop=1" alt="">
+          </div>
+          <div class="col">
+              <img width="290px"
+                  src="https://api.time.com/wp-content/uploads/2021/01/TFK_1130x2400_alt-1.png?w=564&h=1028&crop=1"
+                  alt="">
+          </div>
+      </div>
+      <div class="p_box3">
+          <div>
+              <div style="width: 560px; font-family: 'Zilla Slab', serif; font-size: 19px;">
+  
+                  <p><span style="color: red; font-size: 20px; font-weight: bolder; ">Get The Brief newsletter.
+                      </span>Sign up to receive the top stories you need to know right now.</p>
+              </div>
+              <button class="p_btn">SIGN UP NOW</button>
+          </div>
+      </div>
+      <div class="p_box4">
+          <hr style="background-color: black; color: rgb(0, 0, 0);">
+          <div class="d-flex justify-content-between align-items-baseline">
+              <h1>CLIMATE <i class="fa-solid fa-angle-right fa-xs"></i></h1>
+              <p><a href="#" class="link-danger" style="font-weight: bold; font-size: 17px; margin-top: 15px;">Suscribe to
+                      the Climate newsletter</a></p>
+          </div>
+          <div class="d-flex justify-content-between">
+              <div style="width: 600px; height: auto; ">
+                  <img width="600px"
+                      src="https://api.time.com/wp-content/uploads/2024/01/BYD-Tesla.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                      alt="">
+                  <h2>The Lesson From BYD's EV Takeover: Don't Discount China</h2>
+                  <p>The significance of the rise in the Chinese auto industry as part and parcel of the energy transition
+                      is hard to understate.</p>
+              </div>
+              <div class="p_cards">
+                  <div>
+                      <img width="300px"
+                          src="https://api.time.com/wp-content/uploads/2024/01/GettyImages-1404392668.jpg?quality=85&w=925&h=576&crop=1&resize=925,576"
+                          alt="">
+                      <p>2023 Was the Hottest Year Ever and 2024 May Be Even Worse</p>
+                      </img>
+                  </div>
+                  <div>
+                      <img width="300px"
+                          src="https://api.time.com/wp-content/uploads/2024/01/voting-democracy-climate-change.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                          alt="">
+                      <p>Is Democracy Good for Climate Change?</p>
+                      </img>
+                  </div>
+                  <div>
+                      <img width="300px"
+                          src="https://api.time.com/wp-content/uploads/2024/01/renewable-energy-global-growth-iea-report-2023.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                          alt="">
+                      <p>Renewables Growth Hits 25-Year High</p>
+                      </img>
+                  </div>
+                  <div>
+                      <img width="300px"
+                          src="https://api.time.com/wp-content/uploads/2023/12/national-ignition-facility-fusion-energy-balazs-gardi-03-1.jpeg?quality=85&crop=0px%2C214px%2C1600px%2C1067px&resize=925,617&strip"
+                          alt="">
+                      <p>Inside the Nuclear Fusion Facility That Changed the World</p>
+                      </img>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
         </body>
 </html>
