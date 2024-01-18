@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -204,7 +204,8 @@
         .p_box>h1,
         .p_box2>h1 {
             text-align: center;
-            font-family: 'Oswald', sans-serif;
+            /* font-family: 'Oswald', sans-serif; */
+         
             padding-top: 50px;
         }
 
@@ -259,24 +260,41 @@
         }
 
         .p_cards {
-            width: 600px;
-            height: auto;
+            width: 580px;
+            height: 83vh;
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(2,1fr);
             gap: 2%;
         }
 
         .p_cards>div {
             width: 300px;
-            height: auto;
+            height: 30vh;
+        }
+        .p_para{
+            font-size: 22px;
+            padding-top: 15px;
+        }
+        .p_h2p>div>h2:hover{
+            color: red;
+            cursor: pointer;
+        }
+        .p_cards>div>p:hover{
+            color: red;
+            cursor: pointer;
         }
 
         /* vibha */
+
         .a-1-vm{
             text-decoration: none;
             color: black;
          }
          
+
+        /* 1st-section-v */
+
+
         .box-1-v h3 {
             font-family: "Oswald", sans-serif;
             font-optical-sizing: auto;
@@ -303,11 +321,14 @@
             font-style: normal;
             font-size: 20px;
             line-height: 24px;
+
         }
         #item-2-vm p:hover{
             color: red;
             cursor: pointer;
         }
+
+       
 
         /* 2nd-section-m  */
 
@@ -331,27 +352,23 @@
             width: 100%;
         }
 
+
         #item-4-vm p {
             font-family: "Zilla Slab", serif;
             font-weight: 500;
             font-style: normal;
             font-size: 20px;
             line-height: 24px;
+
         }
         #item-4-vm p:hover{
             color: red;
             cursor: pointer;
+
         }
         /* 3rd-section-v */
 
-        .box-1-v h3 {
-            font-family: "Oswald", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 33px;
-        }
-
+      
         #item-5-vm p {
             font-family: "Roboto", sans-serif;
             font-weight: 700;
@@ -362,6 +379,7 @@
 
         #item-6-vm img {
             width: 100%;
+
         }
 
         #item-6-vm p {
@@ -378,13 +396,7 @@
 
         /* 4th-section-m  */
 
-        .box-2-v h3 {
-            font-family: "Oswald", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 33px;
-        }
+     
 
         #item-7-vm p {
             font-family: "Roboto", sans-serif;
@@ -409,7 +421,12 @@
         #item-8-vm p:hover{
             color: red;
             cursor: pointer;
+
         }
+
+   
+
+        /* mayur  */
 
         /* 1st-section-m  */
 
@@ -498,13 +515,13 @@
             color: #686c73;
         }
 
-        #item-7-ma{
+        #item-7-ma {
             font-family: "PT Serif", serif;
             font-weight: 500;
             font-style: normal;
             font-size: 10px;
             line-height: 20px;
-            color:#78170f ;
+            color: #78170f;
             text-align: center;
         }
     </style>
@@ -752,55 +769,127 @@
         <hr style="background-color: black; color: rgb(0, 0, 0);">
         <div class="d-flex justify-content-between align-items-baseline">
             <h1>CLIMATE <i class="fa-solid fa-angle-right fa-xs"></i></h1>
-            <p><a href="#" class="link-danger" style="font-weight: bold; font-size: 17px; margin-top: 15px;">Suscribe to
+            <p><a href="#" class="link-danger" style="font-weight: bold; font-size: 17px; margin-top: 15px;"><i class="fa-solid fa-paper-plane mx-1" style="color: #e90606;"></i>Suscribe to
                     the Climate newsletter</a></p>
         </div>
-        <div class="d-flex justify-content-between">
-            <div style="width: 600px; height: auto; ">
+        <div class="p_h2p  d-flex justify-content-between" style="font-family: 'Zilla Slab'">
+            <div style="width: 580px; height: 86vh; ">
                 <img width="600px"
                     src="https://api.time.com/wp-content/uploads/2024/01/BYD-Tesla.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
                     alt="">
-                <h2>The Lesson From BYD's EV Takeover: Don't Discount China</h2>
-                <p>The significance of the rise in the Chinese auto industry as part and parcel of the energy transition
+                <h2 style="font-size: 35px; padding-top: 15px;">The Lesson From BYD's EV Takeover: Don't Discount China</h2>
+                <p style="font-family: 'Roboto', sans-serif; font-size: 20px; color:rgb(129, 126, 126) ;">The significance of the rise in the Chinese auto industry as part and parcel of the energy transition
                     is hard to understate.</p>
             </div>
             <div class="p_cards">
                 <div>
-                    <img width="300px"
+                    <img width="280px " height="200px"
                         src="https://api.time.com/wp-content/uploads/2024/01/GettyImages-1404392668.jpg?quality=85&w=925&h=576&crop=1&resize=925,576"
                         alt="">
-                    <p>2023 Was the Hottest Year Ever and 2024 May Be Even Worse</p>
+                    <p class="p_para">2023 Was the Hottest Year Ever and 2024 May Be Even Worse</p>
                     </img>
                 </div>
                 <div>
-                    <img width="300px"
+                    <img width="280px"
                         src="https://api.time.com/wp-content/uploads/2024/01/voting-democracy-climate-change.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
                         alt="">
-                    <p>Is Democracy Good for Climate Change?</p>
+                    <p class="p_para">Is Democracy Good for Climate Change?</p>
                     </img>
                 </div>
                 <div>
-                    <img width="300px"
+                    <img width="280px"
                         src="https://api.time.com/wp-content/uploads/2024/01/renewable-energy-global-growth-iea-report-2023.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
                         alt="">
-                    <p>Renewables Growth Hits 25-Year High</p>
+                    <p class="p_para">Renewables Growth Hits 25-Year High</p>
                     </img>
                 </div>
                 <div>
-                    <img width="300px"
+                    <img width="280px"
                         src="https://api.time.com/wp-content/uploads/2023/12/national-ignition-facility-fusion-energy-balazs-gardi-03-1.jpeg?quality=85&crop=0px%2C214px%2C1600px%2C1067px&resize=925,617&strip"
                         alt="">
-                    <p>Inside the Nuclear Fusion Facility That Changed the World</p>
+                    <p class="p_para">Inside the Nuclear Fusion Facility That Changed the World</p>
                     </img>
                 </div>
             </div>
         </div>
     </div>
-
-
+    <br><br><br><br><br><br><br><br><br><br><br>
+<div class="text-center">
+    <img src="https://s0.2mdn.net/simgad/11939025034040100166" alt="">
+</div>
+<br><br><br>
+<div class="p_box4">
+    <hr style="background-color: black; color: rgb(0, 0, 0);">
+    <div class="d-flex justify-content-between align-items-baseline">
+        <h1>POLITICS <i class="fa-solid fa-angle-right fa-xs"></i></h1>
+        <p><a href="#" class="link-danger" style="font-weight: bold; font-size: 17px; margin-top: 15px;"><i class="fa-solid fa-paper-plane mx-1" style="color: #e90606;"></i>Suscribe to
+                the Climate newsletter</a></p>
+    </div>
+    <div class="p_h2p d-flex justify-content-between" style="font-family: 'Zilla Slab'">
+        <div style="width: 580px; height: 86vh; ">
+            <img width="600px"
+                src="https://api.time.com/wp-content/uploads/2024/01/iowa-caucus-weather-cold-snow-06.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                alt="">
+            <h2 style="font-size: 35px; padding-top: 15px;">Iowa Doesn't Pick Winners. It Culls Losers.</h2>
+            <p style="font-family: 'Roboto', sans-serif; font-size: 20px; color:rgb(129, 126, 126) ;">And neither party can afford to ignore the message that Iowa will send on Monday night.</p>
+        </div>
+        <div class="p_cards">
+            <div>
+                <img width="280px " height="200px"
+                    src="https://api.time.com/wp-content/uploads/2024/01/GettyImages-1843522708.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                    alt="">
+                <p class="p_para">Biden Turns to Midterm Playbook For 2024</p>
+                </img>
+            </div>
+            <div>
+                <img width="280px"
+                    src="https://api.time.com/wp-content/uploads/2023/12/GettyImages-1860796807.jpg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                    alt="">
+                <p class="p_para">Americans More Open to Autocracy in 2024</p>
+                </img>
+            </div>
+            <div>
+                <img width="280px"
+                    src="https://api.time.com/wp-content/uploads/2023/12/trump-court-poy.jpeg?quality=85&w=925&h=617&crop=1&resize=925,617"
+                    alt="">
+                <p class="p_para">How Trump's Trials Could Define 2024</p>
+                </img>
+            </div>
+            <div>
+                <img width="280px"
+                    src="https://api.time.com/wp-content/uploads/2023/11/WWII-danger.jpg?quality=85&w=800&h=533&crop=1&resize=800,533"
+                    alt="">
+                <p class="p_para">Politicians Keep Invoking World War III</p>
+                </img>
+            </div>
+        </div>
+    </div>
+</div>
 
 
     <!--vibha-->
+    <!-- 1st-section-v -->
+    <div class="box-1-v container">
+        <hr>
+        <div class="item-1-v d-flex  justify-content-between align-items-center my-3" id="item-1-vm">
+            <h3><span class="ms-3">FUTURE OF WORK</span> <span>&#65125;</span></h3>
+            <p><span><i class="fa-solid fa-paper-plane" style="color: #e90606;"></i> </span> <span class="me-3">
+                    Subscribe to the Charter newsletter </span></p>
+        </div>
+
+        <div class="item-2-v d-flex justify-content-center align-items-stretch" id="item-2-vm">
+            <div class="d-flex container justify-content-start align-items-start flex-column">
+                <img src="https://api.time.com/wp-content/uploads/2024/01/charter-christy-yoshitomi.jpg?quality=85&w=616&h=411&crop=1&resize=616,411"
+                    alt="#">
+                <p class="my-4 mb-5">How to Build Trust Between Labor and Management</p>
+            </div>
+
+            <div class="d-flex container justify-content-start align-items-start flex-column">
+                <img src="https://api.time.com/wp-content/uploads/2024/01/charter-books-2024.jpg?quality=85&w=616&h=411&crop=1&resize=616,411"
+                    alt="#">
+                <p class="my-4 mb-5">What We Learned From Books in 2023</p>
+            </div>
+
 
     <div style="margin-top: 200px;">
 
@@ -951,9 +1040,10 @@
                     <p class="my-4 mb-5">The Best High Yield Savings Accounts</p>
                 </div>
     
-            </div>
-    
+          </div>
+           
         </div>
+
     </div>
 
     <!-- mayur's html  -->
@@ -1126,7 +1216,8 @@
         <p class="item-7-m container m-3 px-3" id="item-7-ma">
 
             &copy; 2024 TIME USA, LLC. All Rights Reserved. Use of this site constitutes acceptance of our Terms of
-            Service, Privacy Policy (Your California Privacy Rights) and Do Not Sell or Share My Personal Information. <br>
+            Service, Privacy Policy (Your California Privacy Rights) and Do Not Sell or Share My Personal Information.
+            <br>
             TIME may receive compensation for some links to products and services on this website. Offers may be subject
             to change without notice.
 
@@ -1136,4 +1227,5 @@
     </footer>
 
 </body>
+
 </html>
