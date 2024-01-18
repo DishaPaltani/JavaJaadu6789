@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .main1 {
+            display: flex;
+            padding: 0px 10% 0px 10%;
+            /* margin-left: 10%; */
+            /* width: 100%; */
+            /* height: 100vh; */
+            /* border: solid green; */
+            gap: 25px;
+        }
+
+        .featured {
+            width: 70%;
+            height: 70vh;
+            /* border: 2px solid red; */
+
+        }
+
+        .featured>div {
+            display: flex;
+            row-gap: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .box1>div {
+            /* border: 2px solid; */
+            height: 25vh;
+            width: 45%;
+
+
+            /* text-decoration:
+none solid rgb(233, 6, 6) */
+            /* flex-basis: 300px; */
+            /* overflow-x: scroll; */
+            /* overflow-x:auto; */
+            /* scrollbar-width:auto; */
+
+        }
+
+        .box1>div>h3 {
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            letter-spacing: 1.4px;
+            line-height: 28px;
+
+        }
+
+        .box1>div>h3:nth-child(1) {
+            color: #E90606;
+        }
+
+        /* .main>div::-webkit-scrollbar{
+        /* color: red ; */
+        /* display: none; */
+        /* background-color: blue; */
+        /* } */
+
+        .box1>div:hover,
+        .side-box>div>h4:hover {
+            color: #E90606;
+
+        }
+
+        .side-box>div h4 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            /* color: #e90606; */
+        }
+
+        .side-box>div p {
+            font-weight: 300;
+            font-style: normal;
+            font-size: 14px;
+            color: #383838;
+            font-family: "Roboto Condensed", "Arial Narrow", arial, sans-serif;
+        }
+
+        .side-box {
+            width: 25%;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: #f0f1f2;
+        }
+
+        .main {
+            display: flex;
+            color: white;
+            gap: 50px;
+            padding: 0px 5% 0px 5%;
+            background-color: #121225;
+        }
+
+        #body {
+            display: flex;
+            column-gap: 5px;
+        }
+
+        .card {
+            border: none;
+            /* width: 800px; */
+            /* overflow-y: scroll; */
+        }
+
+        .card-text>p:nth-child(1) {
+            font-weight: 400;
+            /* font-family: "Zilla Slab", lora, georgia, times, serif; */
+            font-family: "PT Serif,georgia,times,serif";
+            line-height: 27px;
+            color: #ebebeb;
+        }
+
+        .card-text>p:nth-child(2) {
+            font-weight: 300;
+            text-decoration: none solid rgb(235, 235, 235);
+            font-family: Roboto, HelveticaNeue, sans-serif;
+            color: #ebebeb;
+        }
+
+        .card-body {
+            color: #ebebeb;
+            height: 200px;
+            /* border: solid palevioletred; */
+            background-color: #121225;
+        }
+        
+
+        #video-container {
+            /* position: relative; */
+            /* display: inline-block; */
+            cursor: pointer;
+            row-gap: 10px;
+            /* padding-top: 200px; */
+            background-color:  #121225;
+            /* border: solid palegreen; */
+        }
+
+        #video-container>div:hover video {
+            /* border: 3px solid white; */
+            background-color: black;
+            content: "Play Next!";
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        #video-container>div>div:nth-child(1) {
+            height: 150px;
+            padding-top:60px ;
+            /* row-gap: 1000px; */
+            background-color: #121225;
+        }
+
+        .foot {
+            width: 100%;
+            height: 80vh;
+            padding: 20px 70px 20px 0px;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSI1MDQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE0NDB2NTA0SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHVzZSBmaWxsPSIjRjVFNEREIiB4bGluazpocmVmPSIjYSIvPjxlbGxpcHNlIGZpbGw9IiNGNkYwRUMiIG1hc2s9InVybCgjYikiIGN4PSItNTk5LjUiIGN5PSI3MDkiIHJ4PSIxMzA4LjUiIHJ5PSI5NjIiLz48L2c+PC9zdmc+);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .foot>div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .m>div:nth-child(1) {
+            padding: 50PX 130PX 50PX 120PX;
+        }
+
+        .m>div:nth-child(2) {
+            background-image: url(https://api.time.com/wp-content/uploads/2023/12/TIME_HP_Desktop_CM_Unit_616x435_TS-1.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .foot>div>div {
+            width: 50%;
+            height: 100%;
+        }
+
+        button {
+            width: 330px;
+            background-color: red;
+            color: #ffffff;
+            font-family: Roboto, HelveticaNeue, sans-serif;
+            font-weight: 700;
+        }
+
+        ul li {
+            color: #FF0000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main" >
+        <div class="card" >
+            <h1 style=" background-color: #121225;color: white;">VIDEO > </h1>
+            <div class="video-wrapper"></div>
+            <video controls src="./Davos 2024_ Jane Goodall on Maintaining Hope on a Messy Planet (1).mp4"></video>
+            <div class="card-body" id="body">
+                <div style="width: 150%;">
+                    <h5 class="card-title" style="font-size: 28px;">WEF24 TIME100 Davos Dinner: Jane Goodall in
+                        Conversation with TIME CEO Jessica Sibley</h5>
+                    <p>Jan 16, 2024 | 13:49</p>
+                </div>
+                <div style="width: 150%">
+                    <p class="card-text"
+                        style=" font-weight: 400; font-size: 18px; font-family:  PT Serif,georgia,times,serif;">“The
+                        world is a mess,” Jane Goodall, the prolific environmentalist and foremost expert on
+                        chimpanzees, told TIME CEO Jessica Sibley at the TIME100 dinner on the first night of the
+                        summit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="side" >
+            <h4 style="padding-top: 50px;">WATCH NEXT</h4>
+            <div class="card mb-4" id="video-container">
+            <div style="display: flex;">
+                <div style="width: 250px;">
+                    <video width="250" src="./Davos 2024_ Jane Goodall on Maintaining Hope on a Messy Planet (1).mp4"
+                        class="img-fluid rounded-start"></video>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">WEF24 TIME100 DAVOS DINNER; Jane Goodall in..</p>
+                    <p>Jan 16, 2024 | 13:49</p>
+                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 250px; ">
+                    <video width="250" src="./Davos 2024_ Jane Goodall on Maintaining Hope on a Messy Planet (1).mp4"
+                        class="img-fluid rounded-start"></video>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">WEF24 TIME100 DAVOS DINNER; Jane Goodall in..</p>
+                    <p>Jan 16, 2024 | 13:49</p>
+                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 250px; ">
+                    <video width="250" src="./Davos 2024_ Jane Goodall on Maintaining Hope on a Messy Planet (1).mp4"
+                        class="img-fluid rounded-start"></video>
+                </div>
+                <div class="card-body">
+
+                    <p class="card-text">WEF24 TIME100 DAVOS DINNER; Jane Goodall in..</p>
+                    <p>Jan 16, 2024 | 13:49</p>
+                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 250px; ">
+                    <video width="250" src="./Davos 2024_ Jane Goodall on Maintaining Hope on a Messy Planet (1).mp4"
+                        class="img-fluid rounded-start"></video>
+                </div>
+                <div class="card-body">
+
+                    <p class="card-text">WEF24 TIME100 DAVOS DINNER; Jane Goodall in..</p>
+                    <p>Jan 16, 2024 | 13:49</p>
+                    <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+
+    </div>
+    </div><br>
+
+
+    <div class="main1">
+        <div class="featured">
+            <hr>
+            <h2
+                style=" font-family:sans srial,Arial Narrow,arial ; font-weight: 700; font-size: 36px;color:rgba(0, 0, 0, 0.95);">
+                FEATURED VOICES</h2>
+            <div class="box1">
+                <div>
+                    <h3>Trita Parsi</h3>
+                    <h3>How U.S. Strikes Against the Houthis willbackfire</h3>
+                </div>
+                <div>
+                    <h3>John Spencer</h3>
+                    <h3>Lesson on Human Suffering from a Kibbutz</h3>
+                </div>
+                <div>
+                    <h3>Jane Fonda</h3>
+                    <h3>The Climate Crisis is a Cancer Crisis</h3>
+                </div>
+                <div>
+                    <h3>Dorie Chevien</h3>
+                    <h3>Speaking My Truth at a Silent Retreat</h3>
+                </div>
+                <!-- <div><video src=""></video></div>
+        <div><video src=""></video></div>
+        <div><video src=""></video></div>
+        <div><video src=""></video></div>
+        <div><video src=""></video></div> -->
+            </div>
+        </div>
+
+        <div class="side-box">
+            <h2 style=" font-family: sans-serif; font-weight: 700; font-size: 24px;color: rgba(0, 0, 0, 0.95);">LATEST
+                STORIES</h2>
+            <div>
+                <h4>U.k. Inflation Unexpected Rises. Here's what to Know</h4>
+                <p>JANUARY 17, 2024 . 8:27 AM EST</p>
+            </div>
+            <div>
+                <h4>How MAGA Hijacked the Conservative Movement</h4>
+                <p>JANUARY 17, 2024 . 8:19 AM EST</p>
+            </div>
+            <div>
+                <h4>Arctic Blast to Hit U.S Again</h4>
+                <p>JANUARY 17, 2024 . 1:33 PM EST</p>
+            </div>
+            <div>
+                <h4>New Polling shows How Much Global Support Israel Has Lost</h4>
+                <p>JANUARY 17, 2024 . 12:27 PM EST</p>
+            </div>
+            <div>
+                <h4>How Long Does It Take to Get COVID-19?</h4>
+                <p>JANUARY 17, 2024 . 11:27 AM EST</p>
+            </div>
+            <div>
+                <h4>King Charies to Undergo Treatment for Medical</h4>
+                <p>JANUARY 17, 2024 . 8:27 AM EST</p>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+
+    <div class="foot" style="border: solid;">
+        <div class="m">
+            <div>
+                <h3>Subscibe now to get Unlimited access to <span>TIME.com</span> and more!</h3>
+                <br>
+                <ul>
+                    <li><span style="color: black;">2024 Digital Magazine </span></li>
+                    <li><span style="color: black;">Inside TIME Newsletter, emailed twice weekly </span></li>
+                    <li><span style="color: black;">Discounts at the TIME Cover Store </span></li>
+                </ul>
+                <button style="width:330px;">SUBSCRIBE NOW</button>
+            </div>
+            <div></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
