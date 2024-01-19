@@ -1312,4 +1312,315 @@
 .p_child p,
 .p_child img {
   padding-left: 9px;
+}
+
+.box-1-vm {
+  width: 1440px;
+  height: 496px;
+  flex-shrink: 0;
+  background: #434ccc;
+  box-sizing: border-box;
+}
+.box-1-vm .b-1-vm {
+  width: 1440px;
+  height: 496px;
+  display: flex;
+}
+.box-1-vm .b-1-vm .child-1 {
+  margin-top: 192px;
+  margin-left: 135px;
+}
+.box-1-vm .b-1-vm .child-1 .button-1 {
+  width: 48px;
+  height: 48px;
+  border: 1px solid white;
+  background: #434ccc;
+  border-radius: 5px;
+}
+.box-1-vm .b-1-vm .child-1 .button-1 img {
+  width: 13px;
+  height: 21px;
+}
+.box-1-vm .b-1-vm .child-1 div:nth-child(2) {
+  margin-top: 16px;
+}
+.box-1-vm .b-1-vm .child-2 {
+  width: 270px;
+  height: 270px;
+  flex-shrink: 0;
+  margin: 112px 0px 114px 84px;
+}
+.box-1-vm .b-1-vm .child-2 img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+}
+.box-1-vm .b-1-vm .child-3 {
+  margin-left: 98px;
+  box-sizing: border-box;
+}
+.box-1-vm .b-1-vm .child-3 div:nth-child(1) {
+  width: 153px;
+  height: 24px;
+  margin-top: 127px;
+  margin-right: 652px;
+  color: white;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.box-1-vm .b-1-vm .child-3 div:nth-child(2) {
+  width: 670px;
+  height: 107px;
+  flex-shrink: 0;
+  color: var(--Text_White, #fff);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box-1-vm .b-1-vm .child-3 div:nth-child(3) {
+  width: 125px;
+  height: 32px;
+  margin-top: 22px;
+  margin-right: 680px;
+  color: var(--Text_White, #fff);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box-1-vm .b-1-vm .child-3 div:nth-child(4) {
+  width: 53px;
+  height: 24px;
+  margin-top: 6px;
+  margin-right: 752px;
+  margin-bottom: 121px;
+  color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.part-2-a-1 {
+  width: 123px;
+  height: 24px;
+  margin-top: 79px;
+  margin-right: 657px;
+  margin-left: 660px;
+}
+.part-2-a-1 h5 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.part-2-a-2 {
+  height: 64px;
+  width: 329px;
+  margin-top: 21px;
+  margin-right: 555px;
+  margin-left: 556px;
+}
+.part-2-a-2 h2 {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 64px;
+}
+
+.part-2-a-3 {
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  margin-top: 29px;
+  margin-left: 435px;
+  margin-right: 435px;
+}
+.part-2-a-3 p {
+  color: var(--Text_Black, #000);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 20px;
+  padding-right: 32px;
+}
+
+.logo-1-5 {
+  display: flex;
+}
+.logo-1-5 .logo-a {
+  width: 172px;
+  height: 35px;
+  flex-shrink: 0;
+  margin-top: 57px;
+  margin-left: 136px;
+  margin-right: 33px;
+}
+.logo-1-5 .logo-b {
+  width: 164px;
+  height: 54px;
+  flex-shrink: 0;
+  margin-top: 52px;
+  margin-right: 31px;
+}
+.logo-1-5 .logo-c {
+  width: 368px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: 55px;
+  margin-right: 32px;
+}
+.logo-1-5 .logo-d {
+  width: 173px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: 55px;
+  margin-right: 27px;
+}
+.logo-1-5 .logo-e {
+  width: 168px;
+  height: 53px;
+  flex-shrink: 0;
+  margin-top: 57px;
+  margin-right: 136px;
+}
+
+.button-2 {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #434ccc;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 72px;
+  margin-right: 635px;
+  margin-left: 635px;
+  margin-bottom: 96px;
+}
+
+.part-3-a-1 {
+  width: 78px;
+  height: 24px;
+  margin-left: 135px;
+  margin-right: 1227px;
+  margin-top: 62px;
+}
+.part-3-a-1 h5 {
+  color: var(--Text_Black, #000);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+
+.part-3-a-2 {
+  display: flex;
+}
+.part-3-a-2 div:nth-child(1) h2 {
+  width: 396px;
+  height: 64px;
+  margin-top: 21px;
+  margin-left: 135px;
+  margin-right: 604px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.part-3-a-2 div:nth-child(2) .button-3 {
+  width: 170px;
+  height: 48px;
+  margin-top: 25px;
+  margin-right: 135px;
+  flex-shrink: 0;
+  color: #434ccc;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.part-3-a-3 {
+  display: flex;
+  margin-left: 135px;
+  margin-top: 36px;
+}
+.part-3-a-3 div:nth-child(1) {
+  width: 570px;
+  height: 480px;
+  flex-shrink: 0;
+  margin-right: 30px;
+  background-color: white;
+}
+.part-3-a-3 div:nth-child(1) .card-a1 img {
+  width: 519px;
+  height: 346px;
+  flex-shrink: 0;
+  margin-left: 25px;
+  margin-right: 26px;
+  margin-top: 25px;
+}
+.part-3-a-3 div:nth-child(1) p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.part-3-a-3 div:nth-child(2) {
+  width: 570px;
+  height: 480px;
+  flex-shrink: 0;
+  background-color: white;
+}
+.part-3-a-3 div:nth-child(2) .card-a2 img {
+  width: 519px;
+  height: 346px;
+  flex-shrink: 0;
+  margin-left: 25px;
+  margin-right: 26px;
+  margin-top: 25px;
+}
+.part-3-a-3 div:nth-child(2) .card-a2 p {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 32px;
+  margin-right: 445px;
 }/*# sourceMappingURL=styles.css.map */
