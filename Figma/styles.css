@@ -285,4 +285,824 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-1-m {
+  width: 1440px;
+  height: 656px;
+  background-color: #FFDD78;
+  display: flex;
+}
+.box-1-m .item-1-m h5 {
+  width: 129px;
+  height: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 127px;
+  margin-bottom: 0px;
+  margin-left: 135px;
+  margin-right: 0px;
+  color: var(--Text_Black, #000);
+}
+.box-1-m .item-1-m h2 {
+  width: 419px;
+  height: 128px;
+  color: var(--Text_Black, #000);
+  /* H2 */
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  /* 114.286% */
+  margin-top: 21px;
+  margin-bottom: 0;
+  margin-left: 135px;
+  margin-right: 0;
+}
+.box-1-m .item-1-m p {
+  width: 470px;
+  height: 103px;
+  color: var(--Text_Black, #000);
+  /* Text_Big */
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  margin-top: 29px;
+  margin-left: 135px;
+}
+.box-1-m .item-1-m input {
+  width: 270px;
+  height: 48px;
+  margin-top: 32px;
+  margin-left: 135px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  padding-left: 16px;
+  background: #FFF;
+}
+.box-1-m .item-1-m button {
+  width: 170px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  background: var(--Primary_1, #434CCC);
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 32px;
+  margin-left: 30px;
+  margin-bottom: 144px;
+  margin-right: -140px;
+}
+.box-1-m .item-2-m {
+  width: 885px;
+  height: 590px;
+  margin-right: -10px;
+  margin-top: 21px;
+}
+.box-1-m .item-2-m img {
+  width: 885px;
+  height: 590px;
+}
+
+.box-2-m {
+  width: 1440px;
+  height: 656px;
+  display: flex;
+  background-color: #434CCC;
+}
+.box-2-m .item-3-m {
+  width: 570px;
+  height: 464px;
+  background: #434CCC;
+  background-blend-mode: hard-light;
+  background-image: url("./images/mayur/map.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: 96px;
+  margin-left: 135px;
+}
+.box-2-m .item-3-m img {
+  width: 72px;
+  height: 72px;
+  margin-left: 249px;
+  margin-top: 196px;
+}
+.box-2-m .item-4-m {
+  display: flex;
+  flex-direction: column;
+}
+.box-2-m .item-4-m h5 {
+  color: var(--Text_White, #FFF);
+  width: 129px;
+  height: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-top: 95px;
+  margin-bottom: 0px;
+  margin-left: 130px;
+  margin-right: 0px;
+  width: 107px;
+  height: 24px;
+}
+.box-2-m .item-4-m h2 {
+  color: var(--Text_White, #FFF);
+  width: 268px;
+  height: 64px;
+  /* H2 */
+  font-family: "DM Serif Display", serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  /* 114.286% */
+  margin-top: 21px;
+  margin-bottom: 0;
+  margin-left: 130px;
+  margin-right: 0px;
+}
+.box-2-m .item-4-m #item-1-ma {
+  width: 470px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+  padding-left: 16px;
+  margin-top: 52px;
+  margin-left: 130px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.box-2-m .item-4-m #item-2-ma {
+  width: 470px;
+  height: 96px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+  margin-top: 32px;
+  margin-left: 130px;
+  padding-left: 16px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.box-2-m .item-4-m button {
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background: var(--Primary_2, #F1B505);
+  margin-left: 130px;
+  margin-top: 48px;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+}
+
+.box-3-m {
+  width: 1440px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.box-3-m .ma-1 {
+  display: flex;
+}
+.box-3-m .ma-1 .item-5-m h4 {
+  width: 62px;
+  height: 32px;
+  color: var(--Text_Black, #000);
+  /* H4 */
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 133.333% */
+  margin-top: 72px;
+  margin-left: 135px;
+}
+.box-3-m .ma-1 .item-5-m p {
+  width: 270px;
+  height: 79px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 23px;
+  margin-left: 135px;
+}
+.box-3-m .ma-1 .item-5-m .soc-1-m {
+  display: flex;
+  margin-left: 135px;
+  margin-top: 16px;
+}
+.box-3-m .ma-1 .item-5-m .soc-1-m #tw-m {
+  margin-right: 10px;
+  margin-left: 13px;
+}
+.box-3-m .ma-1 #list-flex-m {
+  display: flex;
+}
+.box-3-m .ma-1 .item-6-m p {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 79px;
+  margin-left: 130px;
+}
+.box-3-m .ma-1 .item-6-m li {
+  list-style: none;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-left: 130px;
+  /* 150% */
+}
+.box-3-m .ma-1 .item-6-m #li-1 {
+  margin-top: 24px;
+  margin-left: 130px;
+}
+.box-3-m .ma-1 .item-7-m p {
+  color: var(--Text_Black, #000);
+  /* Text */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 79px;
+  margin-left: 130px;
+}
+.box-3-m .ma-1 .item-7-m li {
+  list-style: none;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-left: 130px;
+  /* 150% */
+}
+.box-3-m .ma-1 .item-7-m #li-2-1 {
+  margin-top: 24px;
+  margin-left: 130px;
+}
+.box-3-m .ma-1 .item-8-m {
+  display: flex;
+  flex-direction: column;
+}
+.box-3-m .ma-1 .item-8-m #foot-1-m {
+  display: flex;
+}
+.box-3-m .ma-1 .item-8-m #foot-1-m #img-1-m {
+  width: 70px;
+  height: 48px;
+  background-image: url("./images/mayur/lady-1.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 147px;
+}
+.box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m {
+  margin-top: 79px;
+  margin-left: 30px;
+}
+.box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m #p-1-m {
+  width: 270px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m #p-2-m {
+  color: var(--Text_Black, #000);
+  /* Text_Small */
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 200% */
+}
+.box-3-m .ma-1 .item-8-m #foot-2-m {
+  display: flex;
+}
+.box-3-m .ma-1 .item-8-m #foot-2-m #img-2-m {
+  width: 70px;
+  height: 48px;
+  background-image: url("./images/mayur/tunnel.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-top: 64px;
+  margin-left: 147px;
+}
+.box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m {
+  margin-top: 64px;
+  margin-left: 30px;
+}
+.box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m #p-3-m {
+  width: 270px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m #p-4-m {
+  color: var(--Text_Black, #000);
+  /* Text_Small */
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 200% */
+}
+.box-3-m hr {
+  margin-top: 55px;
+}
+.box-3-m .ma-2 {
+  display: flex;
+}
+.box-3-m .ma-2 #copy-1-m {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 27px;
+  margin-left: 135px;
+  margin-bottom: 29px;
+}
+.box-3-m .ma-2 #copy-2-m {
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  /* Text_Gray */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin-top: 27px;
+  margin-left: 787px;
+  margin-bottom: 29px;
+}
+
+@media all and (max-width: 375px) {
+  .box-1-m {
+    width: 375px;
+    height: 944px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-1-m .item-1-m h5 {
+    color: var(--Text_Black, #000);
+    /* H5 */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-left: 14px;
+    margin-top: 63px;
+  }
+  .box-1-m .item-1-m h2 {
+    width: 299px;
+    height: 96px;
+    color: var(--Text_Black, #000);
+    /* H3 */
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+    margin-left: 14px;
+    margin-top: 19px;
+  }
+  .box-1-m .item-1-m p {
+    width: 346px;
+    height: 131px;
+    color: var(--Text_Black, #000);
+    /* Text_Big */
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-left: 14px;
+    margin-top: 31px;
+  }
+  .box-1-m .item-1-m input {
+    width: 346px;
+    height: 48px;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    margin-top: 36px;
+    margin-left: 14px;
+  }
+  .box-1-m .item-1-m button {
+    width: 170px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: var(--Primary_1, #434CCC);
+    margin-top: 16px;
+    margin-left: 14px;
+  }
+  .box-1-m .item-2-m img {
+    width: 645px;
+    height: 430px;
+    margin-left: -144px;
+    margin-top: -150px;
+  }
+  .box-2-m {
+    width: 375px;
+    height: 1056px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-2-m .item-3-m {
+    width: 346px;
+    height: 464px;
+    background: #434CCC;
+    background-blend-mode: hard-light;
+    background-image: url("./images/mayur/map.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 96px;
+    margin-left: 14px;
+  }
+  .box-2-m .item-3-m img {
+    width: 72px;
+    height: 72px;
+    margin-left: 137px;
+    margin-top: 196px;
+  }
+  .box-2-m .item-4-m h5 {
+    width: 107px;
+    height: 24px;
+    color: var(--Text_White, #FFF);
+    /* H5 */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-left: 14px;
+    margin-top: 47px;
+  }
+  .box-2-m .item-4-m h2 {
+    color: var(--Text_White, #FFF);
+    /* H3 */
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+    margin-top: 19px;
+    margin-left: 14px;
+  }
+  .box-2-m .item-4-m #item-1-ma {
+    width: 346px;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    margin-top: 38px;
+    margin-left: 14px;
+  }
+  .box-2-m .item-4-m #item-2-ma {
+    width: 346px;
+    height: 124px;
+    border-radius: 5px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    margin-top: 28px;
+    margin-left: 14px;
+  }
+  .box-2-m .item-4-m button {
+    width: 170px;
+    height: 48px;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    border-radius: 5px;
+    background: var(--Primary_2, #F1B505);
+    margin-top: 48px;
+    margin-left: 14px;
+    margin-bottom: 64px;
+  }
+  .box-3-m .ma-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-3-m .ma-1 .item-5-m h4 {
+    width: 62px;
+    height: 32px;
+    color: var(--Text_Black, #000);
+    /* H4 */
+    font-family: "DM Serif Display", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+    margin-top: 72px;
+    margin-left: 14px;
+  }
+  .box-3-m .ma-1 .item-5-m p {
+    width: 346px;
+    height: 79px;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-top: 23px;
+    margin-left: 14px;
+  }
+  .box-3-m .ma-1 .item-5-m .soc-1-m {
+    display: flex;
+    margin-left: 14px;
+    margin-top: 2px;
+  }
+  .box-3-m .ma-1 .item-5-m .soc-1-m #tw-m {
+    margin-right: 10px;
+    margin-left: 13px;
+  }
+  .box-3-m .ma-1 #list-flex-m {
+    display: flex;
+    margin-top: 79px;
+    margin-left: -116px;
+  }
+  .box-3-m .ma-1 .item-6-m p {
+    color: var(--Text_Black, #000);
+    /* Text */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    margin-top: 79px;
+  }
+  .box-3-m .ma-1 .item-6-m li {
+    list-style: none;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+    /* 150% */
+  }
+  .box-3-m .ma-1 .item-6-m #li-1 {
+    margin-top: 24px;
+  }
+  .box-3-m .ma-1 .item-7-m p {
+    color: var(--Text_Black, #000);
+    /* Text */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    margin-top: 79px;
+  }
+  .box-3-m .ma-1 .item-7-m li {
+    list-style: none;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+    /* 150% */
+  }
+  .box-3-m .ma-1 .item-7-m #li-2-1 {
+    margin-top: 24px;
+  }
+  .box-3-m .ma-1 .item-8-m {
+    margin-left: -135px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-1-m {
+    display: flex;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-1-m #img-1-m {
+    width: 70px;
+    height: 48px;
+    background-image: url("./images/mayur/lady-1.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-left: 147px;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m {
+    margin-top: 79px;
+    margin-left: 30px;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m #p-1-m {
+    width: 270px;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  .box-3-m .ma-1 .item-8-m #foot-1-m #text-1-m #p-2-m {
+    color: var(--Text_Black, #000);
+    /* Text_Small */
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 200% */
+  }
+  .box-3-m .ma-1 .item-8-m #foot-2-m {
+    display: flex;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-2-m #img-2-m {
+    width: 70px;
+    height: 48px;
+    background-image: url("./images/mayur/tunnel.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 64px;
+    margin-left: 147px;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m {
+    margin-top: 64px;
+    margin-left: 30px;
+  }
+  .box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m #p-3-m {
+    width: 270px;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  .box-3-m .ma-1 .item-8-m #foot-2-m #text-2-m #p-4-m {
+    color: var(--Text_Black, #000);
+    /* Text_Small */
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 200% */
+  }
+  .box-3-m .ma-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-3-m .ma-2 #copy-1-m {
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    /* 150% */
+    margin-top: 27px;
+    margin-left: 14px;
+  }
+  .box-3-m .ma-2 #copy-2-m {
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    /* 150% */
+    margin-top: 4px;
+    margin-left: 14px;
+  }
 }/*# sourceMappingURL=styles.css.map */
