@@ -120,6 +120,35 @@
     }
 }
 
+.p_script1 {
+    width: 1440px;
+    margin-top:95px;
+    // trbl 
+
+    h5 {
+        font-size: 16px;
+        width: 100px;
+        height: 24px;
+        margin-left: 671px;
+    }
+
+    h2 {
+        width: 311px;
+        height: 48px;
+        text-align: center;
+        margin-left: 545px;
+        font-size: 40px;
+        /* 120% */
+    }
+
+    p {
+        font-size: 20px;
+        width: 346px;
+        height: 99px;
+        margin-left: 545px;
+    }
+}
+
 // part 3 
 .p_author {
     margin: 36px 92px;
@@ -138,7 +167,7 @@
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.30);
     padding-left: 10px;
     padding-bottom: 10px;
-    
+
 
     .p_image {
         border-radius: 50%;
@@ -241,6 +270,7 @@
         padding-left: 9px;
     }
 }
+
 @media all and (max-width:375px) {
     .p_box1 {
         display: flex;
@@ -249,7 +279,7 @@
         height: 562px;
 
         .p_count {
-   padding: 63px 14px 64px 14px;
+            padding: 63px 14px 64px 14px;
 
             h5 {
                 font-size: 16px;
@@ -266,6 +296,7 @@
                 font-size: 20px;
                 width: 346px;
                 height: 143px;
+                margin-top: 31px;
 
             }
 
@@ -289,13 +320,14 @@
 
     .p_box2 {
         width: 375px;
-        height: 3088px;
+        height: 3400px;
         padding: 47px 14px 80px 14px;
         background: rgb(245, 246, 253);
 
         .p_script {
             width: 375px;
-            margin: 27px 15px 53px 15px;
+            margin: 250px 30px 53px 10px;
+            // trbl 
 
             h5 {
                 font-size: 16px;
