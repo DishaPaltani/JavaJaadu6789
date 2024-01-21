@@ -1430,52 +1430,56 @@
     margin-top: 0;
   }
 }
-.box-1-vm {
+.box-vm {
+  width: 1440px;
+  background-color: #f1f2ff;
+}
+.box-vm .box-1-vm {
   width: 1440px;
   height: 496px;
   flex-shrink: 0;
   background: #434ccc;
   box-sizing: border-box;
+  display: flex;
 }
-.box-1-vm .b-1-vm {
+.box-vm .box-1-vm .b-1-vm {
   width: 1440px;
   height: 496px;
   display: flex;
 }
-.box-1-vm .b-1-vm .child-1 {
+.box-vm .box-1-vm .b-1-vm .child-1 {
   margin-top: 192px;
   margin-left: 135px;
 }
-.box-1-vm .b-1-vm .child-1 .button-1 {
+.box-vm .box-1-vm .b-1-vm .child-1 .button-1 {
   width: 48px;
   height: 48px;
   border: 1px solid white;
   background: #434ccc;
   border-radius: 5px;
 }
-.box-1-vm .b-1-vm .child-1 .button-1 img {
+.box-vm .box-1-vm .b-1-vm .child-1 .button-1 img {
   width: 13px;
   height: 21px;
 }
-.box-1-vm .b-1-vm .child-1 div:nth-child(2) {
+.box-vm .box-1-vm .b-1-vm .child-1 div:nth-child(2) {
   margin-top: 16px;
 }
-.box-1-vm .b-1-vm .child-2 {
+.box-vm .box-1-vm .child-2 {
   width: 270px;
   height: 270px;
   flex-shrink: 0;
   margin: 112px 0px 114px 84px;
 }
-.box-1-vm .b-1-vm .child-2 img {
+.box-vm .box-1-vm .child-2 img {
   width: 270px;
   height: 270px;
   border-radius: 50%;
 }
-.box-1-vm .b-1-vm .child-3 {
+.box-vm .box-1-vm .child-3 {
   margin-left: 98px;
-  box-sizing: border-box;
 }
-.box-1-vm .b-1-vm .child-3 div:nth-child(1) {
+.box-vm .box-1-vm .child-3 h5 {
   width: 153px;
   height: 24px;
   margin-top: 127px;
@@ -1489,10 +1493,11 @@
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-.box-1-vm .b-1-vm .child-3 div:nth-child(2) {
+.box-vm .box-1-vm .child-3 h4 {
   width: 670px;
   height: 107px;
   flex-shrink: 0;
+  margin-right: 135px;
   color: var(--Text_White, #fff);
   font-family: "DM Serif Display";
   font-size: 24px;
@@ -1500,7 +1505,7 @@
   font-weight: 400;
   line-height: 32px;
 }
-.box-1-vm .b-1-vm .child-3 div:nth-child(3) {
+.box-vm .box-1-vm .child-3 p {
   width: 125px;
   height: 32px;
   margin-top: 22px;
@@ -1512,7 +1517,7 @@
   font-weight: 400;
   line-height: 32px;
 }
-.box-1-vm .b-1-vm .child-3 div:nth-child(4) {
+.box-vm .box-1-vm .child-3 p {
   width: 53px;
   height: 24px;
   margin-top: 6px;
@@ -1525,15 +1530,14 @@
   font-weight: 400;
   line-height: 24px;
 }
-
-.part-2-a-1 {
+.box-vm .box-2-vm .part-2-a-1 {
   width: 123px;
   height: 24px;
   margin-top: 79px;
   margin-right: 657px;
   margin-left: 660px;
 }
-.part-2-a-1 h5 {
+.box-vm .box-2-vm .part-2-a-1 h5 {
   color: var(--Text_Black, #000);
   text-align: center;
   font-family: "DM Sans";
@@ -1544,15 +1548,14 @@
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-
-.part-2-a-2 {
+.box-vm .box-2-vm .part-2-a-2 {
   height: 64px;
   width: 329px;
   margin-top: 21px;
   margin-right: 555px;
   margin-left: 556px;
 }
-.part-2-a-2 h2 {
+.box-vm .box-2-vm .part-2-a-2 h2 {
   color: var(--Text_Black, #000);
   text-align: center;
   font-family: "DM Serif Display";
@@ -1561,8 +1564,7 @@
   font-weight: 400px;
   line-height: 64px;
 }
-
-.part-2-a-3 {
+.box-vm .box-2-vm .part-2-a-3 {
   width: 570px;
   height: 83px;
   flex-shrink: 0;
@@ -1570,7 +1572,7 @@
   margin-left: 435px;
   margin-right: 435px;
 }
-.part-2-a-3 p {
+.box-vm .box-2-vm .part-2-a-3 p {
   color: var(--Text_Black, #000);
   text-align: center;
   font-family: "DM Sans";
@@ -1581,11 +1583,10 @@
   padding-left: 20px;
   padding-right: 32px;
 }
-
-.logo-1-5 {
+.box-vm .box-2-vm .logo-1-5 {
   display: flex;
 }
-.logo-1-5 .logo-a {
+.box-vm .box-2-vm .logo-1-5 .logo-a {
   width: 172px;
   height: 35px;
   flex-shrink: 0;
@@ -1593,36 +1594,35 @@
   margin-left: 136px;
   margin-right: 33px;
 }
-.logo-1-5 .logo-b {
+.box-vm .box-2-vm .logo-1-5 .logo-b {
   width: 164px;
   height: 54px;
   flex-shrink: 0;
   margin-top: 52px;
   margin-right: 31px;
 }
-.logo-1-5 .logo-c {
+.box-vm .box-2-vm .logo-1-5 .logo-c {
   width: 368px;
   height: 53px;
   flex-shrink: 0;
   margin-top: 55px;
   margin-right: 32px;
 }
-.logo-1-5 .logo-d {
+.box-vm .box-2-vm .logo-1-5 .logo-d {
   width: 173px;
   height: 53px;
   flex-shrink: 0;
   margin-top: 55px;
   margin-right: 27px;
 }
-.logo-1-5 .logo-e {
+.box-vm .box-2-vm .logo-1-5 .logo-e {
   width: 168px;
   height: 53px;
   flex-shrink: 0;
   margin-top: 57px;
   margin-right: 136px;
 }
-
-.button-2 {
+.box-vm .box-2-vm .button-2 {
   width: 170px;
   height: 48px;
   flex-shrink: 0;
@@ -1638,15 +1638,21 @@
   margin-left: 635px;
   margin-bottom: 96px;
 }
-
-.part-3-a-1 {
+.box-vm .box-2-vm .line-1 {
+  width: 1440px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.19;
+  background: #000;
+}
+.box-vm .box-2-vm .part-3-a-1 {
   width: 78px;
   height: 24px;
   margin-left: 135px;
   margin-right: 1227px;
   margin-top: 62px;
 }
-.part-3-a-1 h5 {
+.box-vm .box-2-vm .part-3-a-1 h5 {
   color: var(--Text_Black, #000);
   font-family: "DM Sans";
   font-size: 16px;
@@ -1656,11 +1662,10 @@
   letter-spacing: 4.8px;
   text-transform: uppercase;
 }
-
-.part-3-a-2 {
+.box-vm .box-2-vm .part-3-a-2 {
   display: flex;
 }
-.part-3-a-2 div:nth-child(1) h2 {
+.box-vm .box-2-vm .part-3-a-2 div:nth-child(1) h2 {
   width: 396px;
   height: 64px;
   margin-top: 21px;
@@ -1673,7 +1678,7 @@
   font-weight: 400;
   line-height: 64px;
 }
-.part-3-a-2 div:nth-child(2) .button-3 {
+.box-vm .box-2-vm .part-3-a-2 div:nth-child(2) .button-3 {
   width: 170px;
   height: 48px;
   margin-top: 25px;
@@ -1687,56 +1692,733 @@
   font-weight: 700;
   line-height: 24px;
 }
-
-.part-3-a-3 {
+.box-vm .box-2-vm .part-3-a-3 {
   display: flex;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a1 {
+  width: 570px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
   margin-left: 135px;
-  margin-top: 36px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
-.part-3-a-3 div:nth-child(1) {
-  width: 570px;
-  height: 480px;
+.box-vm .box-2-vm .part-3-a-3 .card-a1 .card-img-1 {
+  width: 506px;
+  height: 272px;
   flex-shrink: 0;
-  margin-right: 30px;
-  background-color: white;
+  background: url("./images/vibha/card-1.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-right: 32px;
 }
-.part-3-a-3 div:nth-child(1) .card-a1 img {
-  width: 519px;
-  height: 346px;
-  flex-shrink: 0;
-  margin-left: 25px;
-  margin-right: 26px;
-  margin-top: 25px;
-}
-.part-3-a-3 div:nth-child(1) p {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-.part-3-a-3 div:nth-child(2) {
-  width: 570px;
-  height: 480px;
-  flex-shrink: 0;
-  background-color: white;
-}
-.part-3-a-3 div:nth-child(2) .card-a2 img {
-  width: 519px;
-  height: 346px;
-  flex-shrink: 0;
-  margin-left: 25px;
-  margin-right: 26px;
-  margin-top: 25px;
-}
-.part-3-a-3 div:nth-child(2) .card-a2 p {
-  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+.box-vm .box-2-vm .part-3-a-3 .card-a1 p {
   margin-left: 32px;
   margin-right: 445px;
+  margin-top: 15px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a1 h4 {
+  margin-left: 32px;
+  margin-right: 218px;
+  margin-top: 17px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a1 hr {
+  width: 538px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.1011;
+  background: #000;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a1 span {
+  margin-left: 32px;
+  margin-bottom: 22px;
+  margin-right: 7px;
+  margin-top: 18px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 {
+  width: 570px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  margin-left: 30px;
+  margin-right: 135px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 .card-img-2 {
+  width: 506px;
+  height: 272px;
+  flex-shrink: 0;
+  background: url("./images/vibha/card-2.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-right: 32px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 p {
+  margin-left: 32px;
+  margin-right: 445px;
+  margin-top: 15px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 h4 {
+  margin-left: 32px;
+  margin-right: 218px;
+  margin-top: 17px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 hr {
+  width: 538px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.1011;
+  background: #000;
+  margin-left: 32px;
+  margin-top: 24px;
+}
+.box-vm .box-2-vm .part-3-a-3 .card-a2 span {
+  margin-left: 32px;
+  margin-bottom: 22px;
+  margin-right: 7px;
+  margin-top: 18px;
+}
+.box-vm .box-2-vm .line-2 {
+  width: 1440px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.19;
+  background: #000;
+  margin-top: 96px;
+}
+.box-vm .box-2-vm .part-4-a-4 {
+  width: 1440px;
+  height: 495px;
+  display: flex;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 {
+  width: 275px;
+  height: 201px;
+  margin-top: 126px;
+  margin-right: 25px;
+  margin-left: 135px;
+  display: flex;
+  flex-direction: column;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-text {
+  height: 153px;
+  width: 275px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-text .v-h5 {
+  width: 92px;
+  height: 24px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  margin-right: 25px;
+  margin-top: 0px;
+  margin-bottom: 33px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-text .v-h4 {
+  height: 96px;
+  width: 275px;
+  color: var(--Text_Black, #000);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-icon {
+  width: 176px;
+  height: 48px;
+  display: flex;
+  margin-top: 40px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #af69ff;
+  border-radius: 5px;
+  margin-right: 14px;
+  margin-bottom: 149px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta img {
+  height: 18px;
+  width: 18px;
+  padding: 15px;
+}
+.box-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta .v-span {
+  width: 144px;
+  height: 24px;
+  color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 140px;
+}
+.box-vm .box-2-vm .part-4-a-4 .v-img-1 {
+  width: 270px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-top: 111px;
+  margin-right: 25px;
+  background: url("./images/vibha/lemon.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 112px;
+  border-radius: 5px;
+}
+.box-vm .box-2-vm .part-4-a-4 .v-img-2 {
+  width: 270px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-top: 111px;
+  margin-right: 25px;
+  background: url("./images/vibha/hand.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 112px;
+  border-radius: 5px;
+}
+.box-vm .box-2-vm .part-4-a-4 .v-img-3 {
+  width: 270px;
+  height: 272px;
+  flex-shrink: 0;
+  margin-top: 111px;
+  margin-right: 135px;
+  background: url("./images/vibha/banana-beach.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 112px;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 375px) {
+  .box-vm {
+    width: 375px;
+    height: auto;
+    background-color: #f1f2ff;
+  }
+  .box-vm .box-1-vm {
+    width: 375px;
+    height: 848px;
+    flex-direction: column;
+    background-color: #434ccc;
+  }
+  .box-vm .box-1-vm .b-1-vm {
+    width: 375px;
+    height: 848px;
+    display: flex;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-1 {
+    margin-top: 160px;
+    margin-left: 14px;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-1 .button-1 {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    background: #434ccc;
+    border-radius: 5px;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-1 .button-1 img {
+    width: 13px;
+    height: 21px;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-1 div:nth-child(2) {
+    margin-top: 16px;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-2 {
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    margin-top: 80px;
+    margin-right: 32px;
+    margin-left: 11px;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-2 img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-3 h5 {
+    height: 24px;
+    width: 153px;
+    margin-left: 73px;
+    margin-top: 20px;
+    color: var(--Text_White, #FFF);
+    /* H5 */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  .box-vm .box-1-vm .b-1-vm .child-3 h4 {
+    width: 287px;
+    height: 264px;
+    flex-shrink: 0;
+    color: var(--Text_White, #FFF);
+    /* H4 */
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+  }
+  .box-vm .box-1-vm .b-1-vm .child-3 p {
+    width: 125px;
+    height: 32px;
+    color: var(--Text_White, #FFF);
+    /* Text_Big */
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+  }
+  .box-vm .box-1-vm .b-1-vm .child-3 p {
+    width: 53px;
+    height: 24px;
+    color: var(--text-white-50, rgba(255, 255, 255, 0.5));
+    /* Text_Gray */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-1 {
+    width: 123px;
+    height: 24px;
+    margin-top: 63px;
+    margin-right: 125px;
+    margin-left: 127px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-1 h5 {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-2 {
+    height: 48px;
+    width: 235px;
+    margin-top: 19px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-2 h2 {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    /* H3 */
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-3 {
+    width: 346px;
+    height: 104px;
+    flex-shrink: 0;
+    margin-top: 31px;
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-2-a-3 p {
+    color: var(--Text_Black, #000);
+    text-align: center;
+    /* Text_Big */
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 .logo-a {
+    width: 172px;
+    height: 35px;
+    flex-shrink: 0;
+    margin-top: 52px;
+    margin-left: 88px;
+    margin-right: 86px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 .logo-b {
+    width: 164px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-top: 33px;
+    margin-right: 105px;
+    margin-left: 106px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 .logo-c {
+    width: 347px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 33px;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 .logo-d {
+    width: 173px;
+    height: 53px;
+    flex-shrink: 0;
+    margin-top: 33px;
+    margin-right: 101px;
+    margin-left: 101px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .logo-1-5 .logo-e {
+    width: 168px;
+    height: 53px;
+    flex-shrink: 0;
+    margin-top: 33px;
+    margin-right: 103px;
+    margin-left: 104px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .button-2 {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #434ccc;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 66px;
+    margin-right: 102px;
+    margin-left: 103px;
+    margin-bottom: 80px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .line-1 {
+    width: 375px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.19;
+    background: #000;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-1 {
+    width: 78px;
+    height: 24px;
+    margin-left: 14px;
+    margin-right: 283px;
+    margin-top: 46px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-1 h5 {
+    color: var(--Text_Black, #000);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-2 div:nth-child(1) h2 {
+    width: 283px;
+    height: 48px;
+    margin-top: 19px;
+    margin-left: 14px;
+    margin-right: 78px;
+    color: var(--Text_Black, #000);
+    /* H3 */
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 120% */
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-2 div:nth-child(2) .button-3 {
+    width: 170px;
+    height: 48px;
+    margin-top: 38px;
+    margin-right: 102px;
+    margin-left: 103px;
+    flex-shrink: 0;
+    color: #434ccc;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 {
+    width: 346px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 14px;
+    margin-right: 15px;
+    margin-top: 38px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 .card-img-1 {
+    width: 282px;
+    height: 272px;
+    flex-shrink: 0;
+    background: url("./images/vibha/card-1.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-right: 32px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 p {
+    margin-left: 32px;
+    margin-right: 221px;
+    margin-top: 15px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 h4 {
+    margin-left: 32px;
+    margin-right: 89px;
+    margin-top: 17px;
+    color: var(--Text_Black, #000);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 hr {
+    width: 314px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.1011;
+    background: #000;
+    margin-left: 32px;
+    margin-top: 24px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a1 span {
+    margin-left: 32px;
+    margin-bottom: 21px;
+    margin-right: 7px;
+    margin-top: 18px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 {
+    width: 346px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 14px;
+    margin-right: 15px;
+    margin-top: 16px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 .card-img-2 {
+    width: 282px;
+    height: 272px;
+    flex-shrink: 0;
+    background: url("./images/vibha/card-2.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-right: 32px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 p {
+    margin-left: 32px;
+    margin-right: 221px;
+    margin-top: 15px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 h4 {
+    margin-left: 32px;
+    margin-right: 89px;
+    margin-top: 17px;
+    color: var(--Text_Black, #000);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 hr {
+    width: 314px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.1011;
+    background: #000;
+    margin-left: 32px;
+    margin-top: 24px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-3-a-3 .card-a2 span {
+    margin-left: 32px;
+    margin-bottom: 21px;
+    margin-right: 7px;
+    margin-top: 18px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .line-2 {
+    width: 375px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.19;
+    background: #000;
+    margin-top: 48px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 {
+    width: 275px;
+    height: 201px;
+    margin-top: 62px;
+    margin-right: 86px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-text {
+    height: 153px;
+    width: 275px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-text .v-h5 {
+    width: 92px;
+    height: 24px;
+    color: var(--Text_Black, #000);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    margin-top: 0px;
+    margin-bottom: 33px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-text .v-h4 {
+    height: 96px;
+    width: 275px;
+    color: var(--Text_Black, #000);
+    /* H4 */
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 133.333% */
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-icon {
+    width: 176px;
+    height: 48px;
+    display: flex;
+    margin-top: 40px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid #af69ff;
+    border-radius: 5px;
+    margin-right: 14px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta img {
+    height: 18px;
+    width: 18px;
+    padding: 15px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .text-1 .v-icon .v-insta .v-span {
+    width: 144px;
+    height: 24px;
+    color: var(--text-black-50, rgba(0, 0, 0, 0.5));
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .v-img-1 {
+    width: 346px;
+    height: 348px;
+    flex-shrink: 0;
+    row-gap: 48px;
+    margin-right: 15px;
+    margin-left: 14px;
+    background: url("./images/vibha/lemon.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .v-img-2 {
+    width: 346px;
+    height: 348px;
+    flex-shrink: 0;
+    margin-top: -89px;
+    margin-right: 15px;
+    margin-left: 14px;
+    background: url("./images/vibha/hand.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+  }
+  .box-vm .box-1-vm .b-1-vm .box-2-vm .part-4-a-4 .v-img-3 {
+    width: 345px;
+    height: 348px;
+    flex-shrink: 0;
+    margin-top: -89px;
+    margin-right: 15px;
+    margin-left: 14px;
+    background: url("./images/vibha/banana-beach.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 48px;
+    border-radius: 5px;
+  }
 }/*# sourceMappingURL=styles.css.map */
