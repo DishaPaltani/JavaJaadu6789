@@ -14,11 +14,12 @@ TIME- https://java-jaadu6789.vercel.app/
 
 figma-sass - https://java-jaadu6789-xysn.vercel.app/
 
-Overview
+Project Overview
 This project offers a collection of professional and customizable web components, including a responsive navbar, footer, Hover Effect, and various body sections. Elevate our web development projects with these versatile components that enhance navigation, presentation, and overall user experience.
 
 Installation
-Clone the repository
+Clone the repository link prefferable(vs-code).
+
 git clone https://github.com/DishaPaltani/JavaJaadu6789.git
 
 Features
