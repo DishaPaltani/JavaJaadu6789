@@ -2,11 +2,11 @@ java-jadoo-6789
 
 Members
 
-Disha Paltani(Team lead).
-Baba Khalil.
-Payal Kumari.
-Vibha Maurya.
-Mayur Awari.
+1.Disha Paltani(Team lead).
+2.Baba Khalil.
+3.Payal Kumari.
+4.Vibha Maurya.
+5.Mayur Awari.
 
 projects - (TIME, figma-sass)
 
